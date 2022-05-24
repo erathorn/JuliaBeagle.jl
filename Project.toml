@@ -3,8 +3,16 @@ uuid = "2b5f143f-6d93-4ba2-824e-954d88306a56"
 authors = ["erathorn"]
 version = "0.1.0"
 
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+LoopVectorization = "bdcacae8-1622-11e9-2a5c-532679323890"
+MCPhylo = "af0ac7d2-842d-415f-bd76-8183c117c674"
+MCPhyloTree = "e53f0ae0-6895-45b6-9907-1ecda2d8723d"
+SharedArrays = "1a1011a3-84de-559e-8e89-a11a2f7dc383"
+
 [compat]
-julia = "1"
+julia = "1.7"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
